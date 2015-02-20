@@ -1,9 +1,7 @@
 Business Resource Planner Workshop
 ==================================
 A project to get you started with the JBoss Business Resource Planner workshop 
-as found here, this is the starting point for your lab work:
-
-[JBoss Business Resource Planner workshop](http://plannerworkshop-onthe.rhcloud.com)
+as found here, this is the starting point for your lab work: [JBoss Business Resource Planner workshop](http://plannerworkshop-onthe.rhcloud.com)
 
 
 Install on your machine
