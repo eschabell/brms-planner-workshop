@@ -1,7 +1,7 @@
 Business Resource Planner Workshop
 ==================================
 A project to get you started with the JBoss Business Resource Planner workshop 
-as found here, this is the starting point for your lab work: [JBoss Business Resource Planner workshop](http://plannerworkshop-onthe.rhcloud.com)
+as found here, this is the starting point for your lab work, see below.
 
 
 Install on your machine
@@ -12,7 +12,7 @@ Install on your machine
 
 3. Run 'init.sh' or 'init.bat' file. 'init.bat' must be run with Administrative privileges.
 
-4. Read and follow instructions shown during installation.
+4. Proceed to follow workshop online: [JBoss Business Resource Planner workshop](http://plannerworkshop-onthe.rhcloud.com)
 
 
 Supporting Articles
