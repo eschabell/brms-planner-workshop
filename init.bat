@@ -64,5 +64,5 @@ echo.
 echo %PRODUCT% can be found in %JBOSS_HOME%...
 echo.
 
-echo %PRODUCT% %VERSION% %DEMO% Setup Complete.
+echo %DEMO% %VERSION% Setup Complete.
 echo.
