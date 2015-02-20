@@ -1,6 +1,6 @@
 Business Resource Planner Workshop
 ==================================
-A project to get you started with the JBoss Business Resource Planner workshop 
+A project to get you started with the Business Resource Planner workshop 
 as found here, this is the starting point for your lab work, see below.
 
 
@@ -24,7 +24,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.0 - Business Resource Planner workshop based on JBoss BRMS 6.0.3 release.
+- v1.0 - Business Resource Planner workshop based on JBoss BRMS & BPM Suite 6.0.3 release.
 
 [![Cover](https://github.com/eschabell/brms-planner-workshop/blob/master/docs/demo-images/cover.png?raw=true)](http://plannerworkshop-onthe.rhcloud.com)
 

@@ -2,10 +2,10 @@
 setlocal
 
 set PROJECT_HOME=%~dp0
-set DEMO=JBoss BRMS Business Resource Planner Workshop
+set DEMO=Business Resource Planner Workshop
 set AUTHORS=Geoffrey de Smet, Eric D. Schabell
 set PROJECT=git@github.com:eschabell/business-resource-planner-workshop.git
-set PRODUCT=JBoss Business Resource Planner
+set PRODUCT=Business Resource Planner
 set JBOSS_HOME=%PROJECT_HOME%target
 set SUPPORT_DIR=%PROJECT_HOME%support
 set SRC_DIR=%PROJECT_HOME%installs
