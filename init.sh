@@ -1,8 +1,8 @@
 #!/bin/sh 
 DEMO="JBoss BRMS Business Resource Planner Workshop"
 AUTHORS="Geoffrey de Smet, Eric D. Schabell"
-PROJECT="git@github.com:eschabell/brms-planner-workshop.git"
-PRODUCT="JBoss BRMS Business Resource Planner"
+PROJECT="git@github.com:eschabell/business-resource-planner-workshop.git"
+PRODUCT="JBoss Business Resource Planner"
 JBOSS_HOME=./target
 SUPPORT_DIR=./support
 SRC_DIR=./installs
@@ -30,8 +30,6 @@ echo "##                                                      ##"
 echo "##                                                      ##"   
 echo "##  brought to you by,                                  ##"   
 echo "##        ${AUTHORS}            ##"
-echo "##                                                      ##"   
-echo "##  ${PROJECT}  ##"
 echo "##                                                      ##"   
 echo "##########################################################"
 echo
