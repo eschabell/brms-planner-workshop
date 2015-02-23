@@ -10,6 +10,7 @@ set JBOSS_HOME=%PROJECT_HOME%target
 set SUPPORT_DIR=%PROJECT_HOME%support
 set SRC_DIR=%PROJECT_HOME%installs
 set PRJ_DIR=%PROJECT_HOME%projects
+set WORKSHOP_DIR=%PRJ_DIR%business-resource-planner-workshop
 set SOURCE=jboss-bpms-brms-6.0.3.GA-redhat-1-optaplanner.zip
 set VERSION=6.0.3
 
@@ -55,11 +56,17 @@ if exist %JBOSS_HOME% (
 	rmdir /s /q "%PROJECT_HOME%\target"
 )
 
-REM Install workshop.
-echo Installing workshop project...
+REM Install product.
+echo Installing planner...
 echo.
 call unzip -q -d %JBOSS_HOME%  %SRC_DIR%\%SOURCE% 
 
+
+REM Install workshop.
+echo.
+echo Installing workshop...
+call mvn clean install -f %WORKSHOP_DIR%\pom.xml
+echo.
 echo.
 echo %PRODUCT% can be found in %JBOSS_HOME%...
 echo.
