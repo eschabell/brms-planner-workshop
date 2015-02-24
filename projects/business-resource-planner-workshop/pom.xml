@@ -19,50 +19,52 @@
     This module contains the training labs.
   </description>
 
+	<properties>
+		<planner.version>6.0.3-redhat-7</planner.version>
+	</properties>
+	
   <repositories>
-    <!-- Included so it builds out-of-the-box with maven, even for snapshots -->
-    <repository>
-      <id>jboss-public-repository-group</id>
-      <name>JBoss Public Repository Group</name>
-      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
-      <layout>default</layout>
-      <releases>
-        <enabled>true</enabled>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-      </snapshots>
-    </repository>
+     	<repository>
+			<id>jboss-maven-repository</id>
+			<name>JBoss Maven Repository</name>
+			<url>http://maven.repository.redhat.com/techpreview/all/</url>
+			<layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
   </repositories>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <!-- HACK to import optaplanner-bom, drools-bom and also all library versions needed by the examples -->
         <groupId>org.kie</groupId>
         <artifactId>kie-parent-with-dependencies</artifactId>
         <type>pom</type>
-        <version>6.2.0-SNAPSHOT</version>
+        <version>${planner.version}</version>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.optaplanner</groupId>
         <artifactId>optaplanner-training-docs</artifactId>
         <type>pom</type>
-        <version>${project.version}</version>
+        <version>${planner.version}</version>
       </dependency>
       <dependency>
         <groupId>org.optaplanner</groupId>
         <artifactId>planner-lab101</artifactId>
-        <version>${project.version}</version>
+        <version>${planner.version}</version>
       </dependency>
       <dependency>
         <groupId>org.optaplanner</groupId>
         <artifactId>optaplanner-training-assembly</artifactId>
         <type>pom</type>
-        <version>${project.version}</version>
+        <version>${planner.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
