@@ -70,12 +70,7 @@
   </dependencyManagement>
 
   <modules>
-    <module>planner-lab101</module>
-    <module>planner-lab101-solution</module>
-    <module>planner-lab102</module>
-    <module>planner-lab102-solution</module>
-    <module>planner-lab103</module>
-    <module>planner-lab103-solution</module>
+		<!--		<module>planner-lab03</module>    -->
   </modules>
 
 </project>

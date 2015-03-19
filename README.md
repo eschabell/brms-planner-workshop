@@ -24,7 +24,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.0 - Business Resource Planner workshop based on JBoss BRMS & BPM Suite 6.0.3 release.
+- v1.0 - Business Resource Planner workshop based on JBoss BRMS & BPM Suite 6.1 release coming soon...
 
 [![Cover](https://github.com/eschabell/brms-planner-workshop/blob/master/docs/demo-images/cover.png?raw=true)](http://plannerworkshop-onthe.rhcloud.com)
 
