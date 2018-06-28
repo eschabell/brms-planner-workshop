@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/business-resource-planner-workshop).
+
+
 Business Resource Planner Workshop
 ==================================
 A project to get you started with the Business Resource Planner workshop 
